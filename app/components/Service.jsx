@@ -22,18 +22,8 @@ const icons = {
 
 const Services = () => {
   return (
-    <div className="w-full text-black bg-gray-50 mt-4">
+    <div className="w-full text-black bg-gray-50 py-10 rounded-ss-full rounded-ee-full">
       <div className="mx-6 md:mx:18 lg:mx-28 py-5">
-        <h1 className="font font-sans text-xl lg:text-3xl mb-3 flex justify-center mx-auto">
-        Our Key Features
-        </h1>
-        <p className="text-slate-700 max-w-2xl pb-5 flex justify-center mx-auto text-center text-sm lg:text-md">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
-          ducimus molestias distinctio quis voluptatem enim, dolores, iusto
-          impedit esse ipsum officiis aperiam obcaecati ad magni dolor nostrum
-          pariatur laborum iure architecto aliquid vitae, odio sequi. Minus
-          deserunt hic quisquam assumenda?
-        </p>
         <div className="">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 ">
             {service_data.map((item) => {

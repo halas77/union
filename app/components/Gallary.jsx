@@ -16,7 +16,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 export default function Index() {
   return (
     <div className="container mx-auto py-10">
-      <div className="md:flex items-center justify-center w-full h-full py-10 sm:py-8 px-3">
+      <div className="md:flex items-center justify-center w-full h-full py-10 sm:py-8 px-1">
         <div className="flex flex-col justify-start items-start md:w-5/12">
           <h1 className="font-sans text-xl lg:text-3xl mb-3">
             Explore Our Gallary
@@ -28,11 +28,10 @@ export default function Index() {
             pariatur laborum iure architecto aliquid vitae, odio sequi. Minus
             deserunt hic quisquam assumenda?
           </p>
-          <button className="flex justify-center items-center gap-1 text-red-800 hover:text-red-600">
+          <button className="flex justify-center items-center gap-1 text-red-800 hover:text-red-600 mb-10">
             Show More <span><HiArrowLongRight size={23}/></span>
           </button>
         </div>
-        {/* Carousel for desktop and large size devices */}
         <CarouselProvider
           className="flex md:w-7/12"
           naturalSlideWidth={100}
@@ -65,7 +64,7 @@ export default function Index() {
                         <img
                           src={item.img}
                           alt={item.title}
-                          className="object-cover object-center w-full"
+                          className="object-cover object-center w-[400px] h-[400px]"
                         />
                         <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-2 md:p-6">
                           <div className="flex h-full items-end">
@@ -73,7 +72,6 @@ export default function Index() {
                               {item.title}
                             </h3>
                           </div>
-                          {/* Additional content for the slide */}
                         </div>
                       </div>
                     </Slide>

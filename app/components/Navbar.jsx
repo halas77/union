@@ -21,7 +21,7 @@ const Navbar = () => {
       <header className="top-0 left-0 w-full fixed z-[9999] py-3 md:px-8 px-4 bg-white shadow-sm">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
-            <div className="xl:pl-10">
+            <div className="">
               <Link href={"/"}>
                 <Image
                   src={"/union.jpg"}
@@ -88,16 +88,6 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <div className="flex items-center justify-center py-3">
-          <Link href={"/"}>
-            <Image
-              src={"/origin_logo.png"}
-              width={200}
-              height={200}
-              alt="Image"
-            />
-          </Link>
-        </div>
 
         <ul className="p-4">
           {nav_links.map((link) => (

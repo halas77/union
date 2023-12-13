@@ -27,7 +27,7 @@ function IndexPage() {
               <Image
                 width={500}
                 height={100}
-                className="md:absolute -ml-20"
+                className="md:absolute md:-ml-20"
                 src="/hero.png"
                 alt="Image"
               />
