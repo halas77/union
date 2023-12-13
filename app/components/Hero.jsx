@@ -18,7 +18,7 @@ function IndexPage() {
                 learning community for future leaders.
               </h2>
               <div className="w-full flex justify-center md:block">
-                <button className="hover:opacity-90 border border-red-800 py-3 px-8 lg:py-5 lg:px-20 rounded-full text-red-800 text-sm md:text-lg">
+                <button className="hover:opacity-90 border border-red-800 py-3 px-8 lg:py-5 lg:px-20 font-bold rounded-full text-red-800 text-sm md:text-lg">
                   Join Us
                 </button>
               </div>
