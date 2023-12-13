@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 function IndexPage() {
   return (
-      <div className="lg:px-6 xl:px-0 w-full h-[650px] flex justify-center items-center">
+      <div className="lg:px-6 xl:px-0 w-full h-[650px] flex justify-center items-center pt-24">
         <div className="mx-auto container relative z-0 px-4 xl:px-0">
           <div className="flex flex-col-reverse md:flex-row justify-center items-center">
             <div className="md:w-3/5 md:pt-24 pb-10 py-10">
@@ -19,15 +19,15 @@ function IndexPage() {
               </h2>
               <div className="w-full flex justify-center md:block">
                 <button className="hover:opacity-90 border border-red-800 py-3 px-8 lg:py-5 lg:px-20 rounded-full text-red-800 text-sm md:text-lg">
-                  Learn More
+                  Join Us
                 </button>
               </div>
             </div>
-            <div className="w-4/12  m-auto flex items-center justify-center overflow-hidden">
+            <div className="w-5/12  m-auto flex items-center justify-center overflow-hidden">
               <Image
                 width={500}
                 height={100}
-                className="md:absolute md:-ml-28"
+                className="md:absolute -ml-20"
                 src="/hero.png"
                 alt="Image"
               />

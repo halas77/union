@@ -42,8 +42,8 @@ const Navbar = () => {
                       href={item.href}
                       className={
                         pathname === item.href
-                          ? "text-red-800  font-bold uppercase"
-                          : "text-red-800 hover:text-red-600 hover:font-semibold ease-in-out duration-300 font-sans uppercase"
+                          ? "text-red-800  font-bold"
+                          : "text-red-800 hover:text-red-600 hover:font-semibold ease-in-out duration-300 font-sans"
                       }
                     >
                       {item.label}
