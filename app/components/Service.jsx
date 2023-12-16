@@ -22,7 +22,7 @@ const icons = {
 
 const Services = () => {
   return (
-    <div className="w-full text-black bg-gray-50 py-10 rounded-ss-full rounded-ee-full">
+    <div className="mx-0 md:mx-5 lg:mx-10 xl:mx-20 text-black bg-gray-50 py-10 rounded-ss-full rounded-xl">
       <div className="mx-6 md:mx:18 lg:mx-28 py-5">
         <div className="">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 ">

@@ -6,7 +6,30 @@ export const nav_links = [
   { href: "/contact", key: "contact ", label: "Contact us" },
   { href: "/about", key: "about ", label: "About Us" },
 ];
+// Hero data
 
+export const hero_data = [
+  {
+    id:0,
+    img: "/bg1.jpg",
+    title: "Diverse Curriculum",
+  },
+  {
+    id:1,
+    img: "/bg2.jpg",
+    title: "Diverse Curriculum",
+  }, {
+    id:2,
+    img: "/bg3.jpg",
+    title: "Diverse Curriculum",
+  }, {
+    id:3,
+    img: "/bg4.jpg",
+    title: "Diverse Curriculum",
+  }
+
+  
+];
 
 
 // Services
